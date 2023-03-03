@@ -28,10 +28,11 @@ setup(
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3 :: Only",
     ],
-    download_url = "https://github.com/waruingugi/fastapi-filter-sqlalchemy-lite/archive/refs/tags/v0.2.1.tar.gz",
+    download_url = "https://github.com/waruingugi/fastapi-filter-sqlalchemy-lite/archive/refs/tags/v0.2.4.tar.gz",
     keywords = ['FastAPI', 'SQLAlchemy', 'Filter'],
     install_requires=[
         'pydantic',
         'fastapi',
+        'sqlalchemy',
     ],
 )

@@ -6,9 +6,6 @@
   * Python: >=3.8, <3.12
   * Fastapi: >=0.78, <0.93
   * Pydantic: >=1.10.0, <2.0.0
-
-
-**Optional**
   * SQLAlchemy: >=1.4.36, <2.1.0
 
 ## Installation
@@ -16,7 +13,7 @@
 
 ```bash
 # Lite version
-pip install fastapi-sqlalchemy-filter-lite
+pip install fastapi-sqlalchemy-filter
 ```
 
 ## Documentation
