@@ -28,8 +28,13 @@ pydantic = ">=1.10.0,<2.0.0"
 
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ['setuptools>=42']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "fastapi-sqlalchemy-filter"
+version = "0.0.1"
+
 
 [project.urls]
 "Homepage" = "https://github.com/waruingugi/fastapi-filter-sqlalchemy-lite"
