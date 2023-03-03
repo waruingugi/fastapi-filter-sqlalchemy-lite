@@ -48,7 +48,7 @@ name = "greenlet"
 version = "2.0.2"
 description = "Lightweight in-process concurrent programming"
 category = "main"
-optional = false
+optional = true
 python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*"
 files = [
     {file = "greenlet-2.0.2-cp27-cp27m-macosx_10_14_x86_64.whl", hash = "sha256:bdfea8c661e80d3c1c99ad7c3ff74e6e87184895bbaca6ee8cc61209f8b9b85d"},
@@ -199,7 +199,7 @@ name = "sqlalchemy"
 version = "2.0.4"
 description = "Database Abstraction Library"
 category = "main"
-optional = false
+optional = true
 python-versions = ">=3.7"
 files = [
     {file = "SQLAlchemy-2.0.4-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:b67d6e626caa571fb53accaac2fba003ef4f7317cb3481e9ab99dad6e89a70d6"},
@@ -286,6 +286,7 @@ files = [
 
 [package.dependencies]
 anyio = ">=3.4.0,<5"
+typing-extensions = {version = ">=3.10.0", markers = "python_version < \"3.10\""}
 
 [package.extras]
 full = ["httpx (>=0.22.0)", "itsdangerous", "jinja2", "python-multipart", "pyyaml"]
@@ -304,5 +305,5 @@ files = [
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.10"
-content-hash = "1d620b2a662035c85a5850b4d1ef0e052ed3ad235890ba66808df334d580cba7"
+python-versions = "^3.8"
+content-hash = "710c6cc99b9b1706d706586107d2461a12cfe550d38a3d53b62d654742258116"
