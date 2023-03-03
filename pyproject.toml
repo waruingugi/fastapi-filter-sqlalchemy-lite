@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "fastapi-sqlalchemy-filter-lite"
+name = "fastapi-sqlalchemy-filter"
 version = "0.1.0"
-description = "FastAPI filter"
+description = "A simple FastAPI filter for SQLAlchemy"
 authors = ["Arthur Rio <arthur.rio44@gmail.com>", "Warui <warui@marketforce360.com>"]
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/waruingugi/fastapi-filter-sqlalchemy-lite"
-packages = [{include = "fastapi_sqlalchemy_filter_lite"}]
+packages = [{include = "fastapi_sqlalchemy_filter"}]
 classifiers = [
     "Natural Language :: English",
     "Framework :: FastAPI",
