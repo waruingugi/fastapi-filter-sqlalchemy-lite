@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "fastapi_sqlalchemy_filter"
-version = "0.1.0"
+name = "fastapi-sqlalchemy-filter"
+version = "0.2.1"
 description = "A lite version of fastapi-filter for SQLAlchemy only"
-authors = ["Arthur Rio <arthur.rio44@gmail.com>", "Warui <warui@marketforce360.com>"]
+authors = ["Warui <warui@marketforce360.com>"]
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/waruingugi/fastapi-filter-sqlalchemy-lite"
@@ -28,14 +28,5 @@ pydantic = ">=1.10.0,<2.0.0"
 
 
 [build-system]
-requires = ['setuptools>=42']
+requires = ['setuptools']
 build-backend = 'setuptools.build_meta'
-
-[project]
-name = "fastapi-sqlalchemy-filter"
-version = "0.0.1"
-
-
-[project.urls]
-"Homepage" = "https://github.com/waruingugi/fastapi-filter-sqlalchemy-lite"
-"Bug Tracker" = "https://github.com/waruingugi/fastapi-filter-sqlalchemy-lite/issues"
