@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "fastapi-sqlalchemy-filter"
-version = "0.2.1"
+name = "fastapi_sqlalchemy_filter"
+version = "0.2.3"
 description = "A lite version of fastapi-filter for SQLAlchemy only"
 authors = ["Warui <warui@marketforce360.com>"]
 license = "MIT"

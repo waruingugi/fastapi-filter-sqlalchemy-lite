@@ -4,9 +4,9 @@ with open("README.md", "r", encoding = "utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name = "fastapi-sqlalchemy-filter",
-    packages = ['fastapi-sqlalchemy-filter'],
-    version = "0.2.1",
+    name = "fastapi_sqlalchemy_filter",
+    packages = ['fastapi_sqlalchemy_filter'],
+    version = "0.2.3",
     author = "Warui",
     author_email = "waruingugientp@gmail.com",
     description = "A lite version of fastapi-filter for SQLAlchemy only",
@@ -28,6 +28,10 @@ setup(
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3 :: Only",
     ],
-    download_url = "https://github.com/waruingugi/fastapi-filter-sqlalchemy-lite/archive/refs/tags/v0.2.0.tar.gz",
+    download_url = "https://github.com/waruingugi/fastapi-filter-sqlalchemy-lite/archive/refs/tags/v0.2.1.tar.gz",
     keywords = ['FastAPI', 'SQLAlchemy', 'Filter'],
+    install_requires=[
+        'pydantic',
+        'fastapi',
+    ],
 )
