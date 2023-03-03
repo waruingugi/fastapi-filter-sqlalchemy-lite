@@ -7,7 +7,7 @@ from sqlalchemy import or_
 from sqlalchemy.orm import Query
 from sqlalchemy.sql.selectable import Select
 
-from app.filters.base_filter import BaseFilterModel
+from .base_filter import BaseFilterModel
 
 _orm_operator_transformer = {
     "neq": lambda value: ("__ne__", value),

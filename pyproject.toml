@@ -10,6 +10,7 @@ packages = [{include = "fastapi_sqlalchemy_filter_lite"}]
 python = "^3.10"
 fastapi = "^0.92.0"
 sqlalchemy = "^2.0.4"
+pydantic = "^1.10.5"
 
 
 [build-system]
