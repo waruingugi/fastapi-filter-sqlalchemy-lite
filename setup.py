@@ -5,7 +5,7 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 
 setup(
     name = "fastapi_sqlalchemy_filter",
-    packages = ["fastapi_sqlalchemy_filter", "fastapi_sqlalchemy_filter/py.typed"],
+    packages = ["fastapi_sqlalchemy_filter"],
     version = "0.2.4",
     author = "Warui",
     author_email = "waruingugientp@gmail.com",
