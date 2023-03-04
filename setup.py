@@ -5,7 +5,7 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 
 setup(
     name = "fastapi_sqlalchemy_filter",
-    packages = ['fastapi_sqlalchemy_filter'],
+    packages = ["fastapi_sqlalchemy_filter", "fastapi_sqlalchemy_filter/py.typed"],
     version = "0.2.4",
     author = "Warui",
     author_email = "waruingugientp@gmail.com",
@@ -28,11 +28,12 @@ setup(
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3 :: Only",
     ],
-    download_url = "https://github.com/waruingugi/fastapi-filter-sqlalchemy-lite/archive/refs/tags/v0.2.4.tar.gz",
+    download_url = "https://github.com/waruingugi/fastapi-filter-sqlalchemy-lite/archive/refs/tags/v0.2.5.tar.gz",
     keywords = ['FastAPI', 'SQLAlchemy', 'Filter'],
     install_requires=[
         'pydantic',
         'fastapi',
         'sqlalchemy',
     ],
+    package_data={"fastapi_sqlalchemy_filter": ["py.typed"]},
 )
